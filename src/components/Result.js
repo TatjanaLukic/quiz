@@ -5,13 +5,13 @@ const Result = props => {
   return (
     <div
       style={{
-        fontSize: "50px",
+        fontSize: "35px",
         color: "white",
-        padding: "40px 0",
+        padding:"30px 0",
         textAlign: "center"
       }}
     >
-      Your score: {result.toFixed(2)} %
+      Score: {result.toFixed(2)} %
     </div>
   );
 };
