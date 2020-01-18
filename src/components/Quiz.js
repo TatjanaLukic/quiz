@@ -12,13 +12,11 @@ const Quiz = () => {
     setShowResult(true);
   };
 
-  const result = showResult ? <Result score={score} /> : "";
-
   return (
     <div style={{ background: "#8f34eb" }}>
       <Title title="JavaScript Quiz" />
       <div className="ui container">
-        {result}
+        {showResult && <Result score={score} />}
         <QuestionList
           // questions={questions}
           setCalculatedScore={setCalculatedScore}
