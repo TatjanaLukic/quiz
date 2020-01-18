@@ -5,9 +5,9 @@ const Result = props => {
   return (
     <div
       style={{
-        fontSize: "60px",
+        fontSize: "50px",
         color: "white",
-        padding: "50px 0",
+        padding: "40px 0",
         textAlign: "center"
       }}
     >
