@@ -14,7 +14,6 @@ const styleAnswers = {
 const QuestionCard = props => {
   const onSelectHandler = event => {
     props.userAnswersUpdate(event.target.name, event.target.value);
-    //console.log('onSelectHandler')
   };
 
   return (

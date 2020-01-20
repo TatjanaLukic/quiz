@@ -17,10 +17,7 @@ const Quiz = () => {
       <Title title="JavaScript Quiz" />
       <div className="ui container">
         {showResult && <Result score={score} />}
-        <QuestionList
-          // questions={questions}
-          setCalculatedScore={setCalculatedScore}
-        />
+        <QuestionList setCalculatedScore={setCalculatedScore} />
       </div>
     </div>
   );
