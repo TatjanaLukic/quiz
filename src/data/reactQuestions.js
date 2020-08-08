@@ -1,0 +1,42 @@
+export const reactQuestions = [
+  {
+    id: 1,
+    q: 'What is React?',
+    A: 'Library for UI.',
+    B: 'Complete framework for front-end apps.',
+    answer: 'A',
+    category: 'basic',
+  },
+  {
+    id: 2,
+    q: 'React creates Virtual DOM?',
+    A: 'Yes.',
+    B: 'No.',
+    answer: 'A',
+    category: 'basic',
+  },
+  {
+    id: 3,
+    q: 'Props can be:',
+    A: 'Data and functions.',
+    B: 'Just data.',
+    answer: 'A',
+    category: 'basic',
+  },
+  {
+    id: 4,
+    q: 'What is correct?',
+    A: 'State of componentis passed by parent component.',
+    B: 'State of component is defined and owned by component itself.',
+    answer: 'B',
+    category: 'basic',
+  },
+  {
+    id: 5,
+    q: 'setState is?',
+    A: 'Asynchronous function',
+    B: 'Synchronous function',
+    answer: 'A',
+    category: 'basic',
+  },
+];
