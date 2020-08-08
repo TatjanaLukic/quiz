@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import QuestionCard from "./QuestionCard";
-import { questions } from "../data/questions";
+import Loading from "./Loading";
 
-const QuestionList = props => {
+
+const QuestionList = ({setCalculatedScore, questions, loading}) => {
   const [userAnswers, setUserAnswers] = useState(new Map());
+  
+  if(loading){
+    return <Loading/>
+  }
 
   const userAnswersUpdate = (k, v) => {
     setUserAnswers(userAnswers.set(k, v));
@@ -14,10 +19,11 @@ const QuestionList = props => {
     event.preventDefault();
     questions.forEach(el => {
       if (el.answer === userAnswers.get(`${el.id}`)) {
-        calculatedScore = calculatedScore + 10;
+        calculatedScore = calculatedScore + 1;
       }
     });
-    props.setCalculatedScore(calculatedScore);
+    calculatedScore = calculatedScore/questions.length;
+    setCalculatedScore(calculatedScore);
     window.scrollTo(0, 0);
   };
 

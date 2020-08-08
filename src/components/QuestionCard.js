@@ -1,9 +1,7 @@
 import React from "react";
 
 const styleQuestion = {
-  color: "white",
-  margin: "10px",
-  textSize: "72px"
+  color: "white"
 };
 
 const styleAnswers = {

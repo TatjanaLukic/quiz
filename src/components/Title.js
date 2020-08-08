@@ -1,19 +1,10 @@
 import React from "react";
+import '../index.css';
 
-export const Title = props => {
+export const Title = ({title}) => {
   return (
-    <h1
-      style={{
-        color: "#8f34eb",
-        background: "white",
-        marginTop: "30px",
-        textAlign: "center",
-        fontSize: "72px",
-        marginBottom: "40px",
-        padding: "30px 0px"
-      }}
-    >
-      {props.title}
+    <h1 className="Title" >
+      {title}
     </h1>
   );
 };

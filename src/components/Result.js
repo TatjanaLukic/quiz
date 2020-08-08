@@ -1,7 +1,7 @@
 import React from "react";
 
 const Result = props => {
-  const result = (props.score / 90) * 100;
+  const result = (props.score) * 100;
   return (
     <div
       style={{

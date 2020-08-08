@@ -1,11 +1,30 @@
 import React from "react";
-import Quiz from "./Quiz";
+import JavaScriptQuiz from "./quizes/JavaScriptQuiz";
+import ReactQuiz from "./quizes/ReactQuiz";
+import CSSQuiz from "./quizes/CSSQuiz";
+import Home from './Home';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const App = () => {
   return (
-    <div>
-      <Quiz />
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/JavaScriptQuiz">
+          <JavaScriptQuiz />
+        </Route>
+        <Route path="/ReactQuiz">
+          <ReactQuiz />
+        </Route>
+        <Route path="/CSSQuiz">
+          <CSSQuiz />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   );
 };
 
