@@ -11,7 +11,7 @@ const App = () => {
     <HashRouter>
       <Navbar />
       <Switch>
-        <Route path="/Quiz">
+        <Route exact path="/">
           <Home />
         </Route>
         <Route path="/JavaScriptQuiz">
