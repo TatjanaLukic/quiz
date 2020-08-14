@@ -47,8 +47,8 @@ export const cssQuestions = [
       id: 6,
       q:
         'Define a pseudo class in CSS?',
-      A: "It is a feature of CSS which is used to style on the given state of an element",
-      B: "It is a feature of CSS which is used to style the given part of an element",
+      A: "It is a feature of CSS which is used to style on the given state of an element.",
+      B: "It is a feature of CSS which is used to style the given part of an element.",
       answer: "A",
       category: "basic"
     }

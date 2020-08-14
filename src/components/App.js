@@ -3,15 +3,15 @@ import JavaScriptQuiz from "./quizes/JavaScriptQuiz";
 import ReactQuiz from "./quizes/ReactQuiz";
 import CSSQuiz from "./quizes/CSSQuiz";
 import Home from './Home';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route path="/Quiz">
           <Home />
         </Route>
         <Route path="/JavaScriptQuiz">
@@ -24,7 +24,7 @@ const App = () => {
           <CSSQuiz />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

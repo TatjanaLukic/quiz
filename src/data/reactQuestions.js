@@ -26,7 +26,7 @@ export const reactQuestions = [
   {
     id: 4,
     q: 'What is correct?',
-    A: 'State of componentis passed by parent component.',
+    A: 'State of component is passed by parent component.',
     B: 'State of component is defined and owned by component itself.',
     answer: 'B',
     category: 'basic',
@@ -34,8 +34,8 @@ export const reactQuestions = [
   {
     id: 5,
     q: 'setState is?',
-    A: 'Asynchronous function',
-    B: 'Synchronous function',
+    A: 'Asynchronous function.',
+    B: 'Synchronous function.',
     answer: 'A',
     category: 'basic',
   },
