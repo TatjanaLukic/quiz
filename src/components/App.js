@@ -3,7 +3,7 @@ import JavaScriptQuiz from "./quizes/JavaScriptQuiz";
 import ReactQuiz from "./quizes/ReactQuiz";
 import CSSQuiz from "./quizes/CSSQuiz";
 import Home from './Home';
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const App = () => {
@@ -23,6 +23,7 @@ const App = () => {
         <Route path="/CSSQuiz">
           <CSSQuiz />
         </Route>
+        <Redirect to="/" />
       </Switch>
     </HashRouter>
   );
