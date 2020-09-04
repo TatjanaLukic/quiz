@@ -1,64 +1,56 @@
-
-.Navbar  {
-    width: 100%;
-    background-color: #8f34eb;
-    text-align: center;
+.Navbar {
+  width: 100%;
+  background-color: #8f34eb;
+  text-align: center;
 }
-
 .Navbar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
 .Navbar a {
-    display: inline-block;
-    font-weight: bold;
-    margin: 20px;
-    color: white;
-    font-size: 20px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+  color: white;
+}
+@media screen and (max-width: 450px) {
+  .Navbar a {
+    font-size: 12px;
   }
-
+}
 .Navbar a:hover,
 .Navbar a:active {
-    color: rgb(25, 24, 27);
+  color: #19181b;
 }
 
 .Homepage {
-    text-align: center;
-    background-color: white;
-    color: #8f34eb;
-    margin: 20px;
-    font-size: 20px;
+  text-align: center;
+  background-color: white;
+  color: #8f34eb;
+  margin: 20px;
+  font-size: 20px;
 }
 
 .Title {
-    color: #8f34eb; 
-    background-color: white;
-    margin-top: 30px;
-    text-align: center;
-    font-size: 72px;
-    margin-bottom: 40px;
-    padding: 30px 0px;
+  color: #430c7a;
+  background-color: white;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 72px;
+  margin-bottom: 40px;
+  padding: 30px 0px;
+}
+@media screen and (max-width: 450px) {
+  .Title {
+    font-size: 50px;
+  }
 }
 
 .Loading {
-    color:white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
-
-@media screen and (max-width: 450px){
-    
-    .Navbar a{
-        font-size: 12px;
-    }
-
-    .Title {
-        font-size: 50px;
-    }
-
-    
-}
-
-
+/*# sourceMappingURL=index.css.map */
