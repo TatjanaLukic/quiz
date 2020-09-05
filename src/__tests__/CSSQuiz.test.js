@@ -26,4 +26,5 @@ describe("<CSSQuiz/>", () => {
     expect(tree.find(Result)).toHaveLength(1);
   });
 
+  
 });
