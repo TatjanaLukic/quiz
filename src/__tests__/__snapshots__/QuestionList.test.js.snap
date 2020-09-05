@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuestionList/> spanshot matches - loading 1`] = `<Loading />`;
+
+exports[`<QuestionList/> spanshot matches - not loading 1`] = `<Loading />`;

@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import Result from "../Result";
 import QuestionList from "../QuestionList";
 import Title from "../Title";
 import { cssQuestions } from "../../data/cssQuestions";
+import { withRouter} from 'react-router-dom';
 
-const Quiz = () => {
+const CSSQuiz = () => {
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -25,4 +26,4 @@ const Quiz = () => {
   );
 };
 
-export default Quiz;
+export default CSSQuiz;

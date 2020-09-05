@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReactQuiz/> spanshot matches 1`] = `
+<div
+  style={
+    Object {
+      "background": "#8f34eb",
+    }
+  }
+>
+  <Title
+    title="React Quiz"
+  />
+  <div
+    className="ui container"
+  >
+    <QuestionList
+      loading={false}
+      questions={
+        Array [
+          Object {
+            "A": "Library for UI.",
+            "B": "Complete framework for front-end apps.",
+            "answer": "A",
+            "category": "basic",
+            "id": 1,
+            "q": "What is React?",
+          },
+          Object {
+            "A": "Yes.",
+            "B": "No.",
+            "answer": "A",
+            "category": "basic",
+            "id": 2,
+            "q": "React creates Virtual DOM?",
+          },
+          Object {
+            "A": "Data and functions.",
+            "B": "Just data.",
+            "answer": "A",
+            "category": "basic",
+            "id": 3,
+            "q": "Props can be:",
+          },
+          Object {
+            "A": "State of component is passed by parent component.",
+            "B": "State of component is defined and owned by component itself.",
+            "answer": "B",
+            "category": "basic",
+            "id": 4,
+            "q": "What is correct?",
+          },
+          Object {
+            "A": "Asynchronous function.",
+            "B": "Synchronous function.",
+            "answer": "A",
+            "category": "basic",
+            "id": 5,
+            "q": "setState is?",
+          },
+        ]
+      }
+      setCalculatedScore={[Function]}
+    />
+  </div>
+</div>
+`;

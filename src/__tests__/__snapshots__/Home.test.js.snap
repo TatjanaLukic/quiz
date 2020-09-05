@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> spanshot matches 1`] = `
+<div
+  className="Homepage"
+>
+  <p>
+     Prepare for job interview!
+  </p>
+  <p>
+     Test your knowledge of JavaScript, CSS and React.
+  </p>
+  <p>
+     Click on links above to access quiz.
+  </p>
+</div>
+`;

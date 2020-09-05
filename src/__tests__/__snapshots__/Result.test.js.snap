@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Result/> spanshot matches 1`] = `
+<div
+  style={
+    Object {
+      "color": "white",
+      "fontSize": "35px",
+      "padding": "30px 0",
+      "textAlign": "center",
+    }
+  }
+>
+  Score: 
+  NaN
+   %
+</div>
+`;

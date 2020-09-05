@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuestionCard/> spanshot matches 1`] = `
+<div
+  className="grouped fields"
+  style={
+    Object {
+      "marginTop": "5px",
+    }
+  }
+>
+  <h3
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+  />
+  <div
+    className="field"
+  >
+    <div
+      className="ui radio checkbox"
+    >
+      <input
+        onChange={[Function]}
+        type="radio"
+        value="A"
+      />
+      <label
+        style={
+          Object {
+            "color": "white",
+            "margin": "5px",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="field"
+  >
+    <div
+      className="ui radio checkbox"
+    >
+      <input
+        onChange={[Function]}
+        type="radio"
+        value="B"
+      />
+      <label
+        style={
+          Object {
+            "color": "white",
+            "margin": "5px",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="ui divider"
+  />
+</div>
+`;
